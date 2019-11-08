@@ -69,7 +69,7 @@ write_version_py()
 setup(
     name='nilmtk-contrib',
     version=FULLVERSION,
-    packages=['nilmtk_contrib'],
+    packages=['nilmtk_contrib', 'nilmtk_contrib.disaggregate'],
     install_requires=[
         'nilmtk>=0.4',
         'keras>=2.2.4',
